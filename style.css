@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+.row{
+    width: 400px;
+    font-size: 40px;
+    background-color: black;
+}
+button{
+    font-size: 40px;
+    height: 100px;
+    cursor: pointer;
+    background-color: #d8d9db;
+}
+button:hover{
+    background-color: #ebebeb;
+}
+.button:active{
+    background-color: #bbbcbe;
+}
+.row1{
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    text-align: right;
+    padding: 20px 5px;
+}
+.row2,.row3,.row4,.row5,.row6{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-content: stretch;
+}
+.Clear{
+    width: 50.5%;
+    margin: 0.5%;
+    border: none;
+}
+.Division,.Multiplication,.Subtraction,.Addition,.Equals{
+    width: 24.5%;
+    background-color: orange;
+    color: white;
+    margin: 0.5%;
+    border: none;
+}
+.last-button:hover{
+    background-color: #dfb07e;
+}
+.last-button:active{
+    background-color: #dd8d37;
+}
+.Backspace{
+    width: 24.5%;
+    margin: 0.5%;
+    border: none;
+}
+.Numbers{
+    width: 24.5%;
+    margin: 0.5%;
+    border: none;
+}
+.Number-zero{
+    width: 75.5%;
+    margin: 0.5%;
+    border: none;
+}
